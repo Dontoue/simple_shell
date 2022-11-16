@@ -242,3 +242,4 @@ Example:
 	$ echo $NAME
 	
 	$
+## Author 🖋️
