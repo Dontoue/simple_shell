@@ -184,7 +184,7 @@ Example:
 	$ cd -
 	$ pwd
 	/home/vagrant/holberton/simple_shell
-# alias
+##  alias
 	•Usage: alias [NAME[='VALUE'] ...]
 	•Handles aliases.
 	•alias: Prints a list of all aliases, one per line, in the form NAME='VALUE'.
@@ -202,7 +202,7 @@ Example:
 	alias_builtins.c   environ.c          helper.c         main.c              split.c
 	builtin.c          err_msgs1.c        helpers_2.c      man_1_simple_shell  str_funcs1.c
 	builtins_help_1.c  err_msgs2.c        input_helpers.c  proc_file_comm.c    str_funcs2.c
-# exit
+##  exit
 	•Usage: exit [STATUS]
 	•Exits the shell.
 	•The STATUS argument is the integer used to exit the shell.
@@ -212,7 +212,7 @@ Example:
 
 	$ ./shellby
 	$ exit
-# env
+## env
 	•Usage: env
 	•Prints the current environment.
 Example:
@@ -221,7 +221,7 @@ Example:
 	•$ env
 	NVM_DIR=/home/vagrant/.nvm
 	...
-# setenv
+## setenv
 	•Usage: setenv [VARIABLE] [VALUE]
 	•Initializes a new environment variable, or modifies an existing one.
 	•Upon failure, prints a message to stderr.
@@ -230,7 +230,7 @@ Example:
 	$ ./shellby
 	$ setenv NAME Poppy
 	$ echo $NAME Poppy
-# unsetenv
+## unsetenv
 	•Usage: unsetenv [VARIABLE]
 	•Removes an environmental variable.
 	•Upon failure, prints a message to stderr.
